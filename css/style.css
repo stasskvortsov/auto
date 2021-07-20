@@ -141,4 +141,20 @@ margin-bottom: 12px;
 .button--decor{
  margin-top: -7px;
  color:#fff;
+ position: relative;
+}
+.button--decor::after{
+    content: "ЖМИ";
+    color: #c4c4c4;
+    margin-left: 130px;
+    position: absolute;
+}
+.button--decor::before{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #c4c4c4;
+    position: absolute;
+    right: -65px;
+    top: 24px;
 }
