@@ -80,13 +80,17 @@ a{
     background-color: #fff;
 }
 .header__social{
-    padding: 70px 0 20px 65px;
+    padding: 70px 0 20px 70px;
+   
+}
+.social{
     display: flex;
     align-items: center;
 }
-.header__social-link{
-    margin-right: 10px;
+.social__link{
+    margin: 0 5px;
 }
+
 .header__images{
     position: absolute;
     right: 0;
@@ -285,4 +289,73 @@ height: 1px;
 .carousel .slick-active button{
     background-color: #5A0D67;
     height: 3px;
+}
+.contacts__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__list{
+    list-style: none;
+}
+.class::before{
+    content: '0' counter(name);
+}
+.class:nth-child(13)::before{
+    content: '0' counter(name);
+}
+.contacts__item{
+    margin-bottom: 20px;
+}
+.contacts__item-title{
+    color: #5A0D67;
+}
+.contacts__form{
+    background-color: #21062a;
+    padding: 50px 75px 57px;
+    text-align: center;
+
+}
+.contacts__title{
+    color:#fff;
+    margin-bottom: 16px;
+    margin-left: 53px;
+    text-align: left;
+}
+.contacts__title::after{
+    background-color: #fff;
+}
+.contacts__input{
+    background-color: transparent;
+    width: 450px;
+    height: 75px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.contacts__input::placeholder{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color:  #c4c4c4;    
+}
+.contacts__btn{
+    border: none;
+    color: #fff;
+    margin-top: 78px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #21062a ;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    height: 100px;
 }
